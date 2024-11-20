@@ -187,11 +187,7 @@
     font-size: 1.1em;
   }
   
-  input[type="text"],
-  input[type="email"],
-  input[type="tel"],
-  input[type="date"],
-  input[type="time"] {
+  input {
     width: 100%;
     padding: 10px;
     border-radius: 4px;
@@ -204,12 +200,13 @@
     padding: 15px;
     width: 100%;
     border: none;
-    border-radius: 4px;
+    border-radius: 20px;
     font-size: 1.2em;
+
   }
   
   button.submit-btn:hover {
-    background-color: #f39c12;
+    background-color: #1681c9;
   }
   .home-section, .about-section {
     color: white;
